@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body, html {
+            height: 100%;
+      font-family: cursive;
+      }
+  .parallax { 
+  background-image: url(./img1\ \(1\).avif);
+  height: 100vh; 
+  width:100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  .D5{
+    display:flex;
+    justify-content: center;
+    left: 550px;
+    position: fixed;
+
+  }
+  .c1{
+    text-decoration:none;
+    display:flex;
+    justify-content: center;
+    top:60px;
+    left:500px;
+    position:fixed;
+  }
+  .c2{
+    text-decoration:none;
+    display:flex;
+    justify-content: center;
+    top:60px;
+    left:650px;
+    position:fixed;
+  }
+  .c3{
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    top:60px;
+    left:800px;
+    position:fixed;
+  }
+
+
+
+  .container{
+    background-color: rgba( 255,255,255,0.7);
+    height:470px;
+    width:1200px;
+    display:flex;
+    position:relative;
+    left:200px;
+    top:12%;
+  }
+  .left{
+     margin:40px;
+  } 
+  .right{
+    position:relative;
+    top:170px;
+  }
+  .parallax-1 { 
+  background-image: url(./img3\ \(1\).avif);
+  height: 100vh; 
+  width:100%;
+   background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  .card{
+    background-color: rgba( 255,255,255,0.7);
+    height:450px;
+    width:1100px;
+    display:flex;
+    flex-direction: row-reverse;
+    position:relative;
+    left:200px;
+    top:150px;
+  } 
+  .D1{
+     margin:40px;
+  }
+  .D2{
+    position:relative;
+    top:170px;
+  }
+  .parallax-2 { 
+  background-image: url("./img4\ \(1\).avif");
+  height: 100vh; 
+  width:100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+   background-size: cover; 
+  } 
+  .card1{
+    background-color: rgba( 255,255,255,0.7);
+    height:450px;
+    width:1100px;
+    display:flex;
+    position:relative;
+    left:200px;
+    top:150px;
+  } 
+  .D3{
+     margin:40px;
+  }
+  .D4{
+    position:relative;
+    top:140px;
+  }
+    </style>
+      </head>
+      <body>
+        <section class="parallax" id="P1">
+            <div class="D5">
+                <h2>Adorable Puppies</h2>
+           
+            </div>
+            <nav>
+              <a class="c1" href="#P1">Playfull Pups</a><a class="c2" href="#P2">Sleepy Pups</a><a class="c3" href="#P3">Curious Pups</a>
+          </nav>
+            <div class="container">
+                <div class="left">
+                    <img src="./img1 (1).avif" height="400px" width="100%">
+                </div>
+                <div class="right">
+                    <h2>Playfull Puppies</h2>
+                    <p>Puppies love to play! It's how they learn about the world and develop<br>important skills.</p>
+                </div>
+            </div>
+        </section>
+       <section class="parallax-1" id="P2">
+        <div class="card">
+            <div class="D1">
+                <img src="./img4 (1).avif" height="350px" width="100%">
+            </div>
+            <div class="D2">
+                <h2>Sleepy Puppies</h2>
+                <p> Puppies need lots of sleep to grow big and strong.They can sleep up to 20<br>hours a day</p>
+            </div>
+        </div>
+       </section>
+       <section class="parallax-2" id="P3">
+        <div class="card1">
+            <div class="D3"> 
+                <img src="./img3 (1).avif" height="350px" width="100%">
+            </div>
+            <div class="D4">
+                <h2>Curious Puppies</h2>
+                <p>Puppies are naturally curious and love to explore their surroundings.This<br> helps them learn and grow!</p>
+            </div>
+        </div>
+       </section>  
+</body>
+</html>
